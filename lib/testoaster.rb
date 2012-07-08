@@ -1,5 +1,6 @@
 
 
+
 def puts! arg
   puts '+++ +++'
   puts arg.inspect
@@ -18,7 +19,8 @@ end
 
 begin
   Paperclip.options[:log] = false
-rescue
+rescue Exception => e
+  ;
 end
 
 def assert_layout layout
