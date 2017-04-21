@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "testoaster"
-  s.version = "0.0.1"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Victor Pudeyev"]
-  s.date = "2012-07-08"
+  s.authors = ["Victor Piousbox"]
+  s.date = "2017-04-20"
   s.description = "Some Rails testing goodies."
   s.email = "piousbox@gmail.com"
   s.extra_rdoc_files = [
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "test/en.yml",
     "test/helper.rb",
     "test/test_testoaster.rb",
+    "test/test_utils.rb",
     "testoaster.gemspec"
   ]
   s.homepage = "http://github.com/piousbox/testoaster"

@@ -1,9 +1,11 @@
 source "http://rubygems.org"
 
+gem 'json','~> 1.8.2'
+
 group :development do
   
   gem "rdoc", "~> 3.12"
-  gem "bundler", "~> 1.2.0.pre.1"
+  # gem "bundler", "~> 1.2.0.pre.1"
   gem "jeweler", "~> 1.8.4"
   
 end

@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = "Some Rails testing goodies."
   gem.description = "Some Rails testing goodies."
   gem.email = "piousbox@gmail.com"
-  gem.authors = ["Victor Pudeyev"]
+  gem.authors = ["Victor Piousbox"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -51,3 +51,4 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
