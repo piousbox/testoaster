@@ -1,4 +1,6 @@
 
+require 'yaml'
+
 def puts! arg, label=""
   puts "+++ +++ #{label}"
   puts arg.inspect
